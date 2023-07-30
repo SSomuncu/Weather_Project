@@ -45,7 +45,7 @@ photo_label = Label(image=photo)
 photo_label.pack()
 
 city_entry = Entry(window, justify='center')
-city_entry.insert(string="Enter your city...", index=0)
+#city_entry.insert(string="Enter your city...", index=0)
 city_entry.pack(ipady=5, pady=10,padx=10, fill=BOTH)
 city_entry.focus()
 
